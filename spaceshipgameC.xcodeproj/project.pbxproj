@@ -45,11 +45,11 @@
 		309DA88C1BC9B1200097C2F1 /* spaceshipgameCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spaceshipgameCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		309DA8911BC9B1200097C2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		309DA8921BC9B1200097C2F1 /* spaceshipgameCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spaceshipgameCTests.m; sourceTree = "<group>"; };
-		309DA89D1BC9B1740097C2F1 /* fs_enemy02A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fs_enemy02A.png; sourceTree = "<group>"; };
-		309DA89E1BC9B1740097C2F1 /* missile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missile.png; sourceTree = "<group>"; };
-		309DA89F1BC9B1740097C2F1 /* ship5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship5.png; sourceTree = "<group>"; };
-		309DA8A01BC9B1740097C2F1 /* Star_Destroyer_Side_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_Destroyer_Side_2.png; sourceTree = "<group>"; };
-		309DA8A11BC9B1740097C2F1 /* texture__space_by_Mjag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture__space_by_Mjag.jpg; sourceTree = "<group>"; };
+		309DA89D1BC9B1740097C2F1 /* fs_enemy02A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fs_enemy02A.png; path = images/fs_enemy02A.png; sourceTree = SOURCE_ROOT; };
+		309DA89E1BC9B1740097C2F1 /* missile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missile.png; path = images/missile.png; sourceTree = SOURCE_ROOT; };
+		309DA89F1BC9B1740097C2F1 /* ship5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ship5.png; path = images/ship5.png; sourceTree = SOURCE_ROOT; };
+		309DA8A01BC9B1740097C2F1 /* Star_Destroyer_Side_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Star_Destroyer_Side_2.png; path = ../images/Star_Destroyer_Side_2.png; sourceTree = "<group>"; };
+		309DA8A11BC9B1740097C2F1 /* texture__space_by_Mjag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = texture__space_by_Mjag.jpg; path = ../images/texture__space_by_Mjag.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
