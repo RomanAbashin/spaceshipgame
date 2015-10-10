@@ -61,7 +61,7 @@ float speedOfEnemy;
     //starting position of images
     friendlyShip.center = CGPointMake(140, 400);
     enemyShip.center = CGPointMake(140, 400);
-    missile.center = CGPointMake(friendlyShip.center.x, enemyShip.center.y)
+    missile.center = CGPointMake(friendlyShip.center.x, enemyShip.center.y);
     
     
        
@@ -75,6 +75,17 @@ float speedOfEnemy;
     
     startButton.hidden = YES;
     
+    //images shown
+    friendlyShip.hidden=NO;
+    enemyShip.hidden=NO;
+    missile.hidden=NO;
+    motherShip.hidden=NO;
+    
+    //labels shown
+    livesLabel.hidden=NO;
+    scoreLabel.hidden=NO
+    
+    (self positionEnemy);
     
 }
 
