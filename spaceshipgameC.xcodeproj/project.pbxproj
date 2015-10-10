@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		309DA8791BC9B1200097C2F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309DA8781BC9B1200097C2F1 /* main.m */; };
+		309DA87C1BC9B1200097C2F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309DA87B1BC9B1200097C2F1 /* AppDelegate.m */; };
+		309DA87F1BC9B1200097C2F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309DA87E1BC9B1200097C2F1 /* ViewController.m */; };
+		309DA8821BC9B1200097C2F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309DA8801BC9B1200097C2F1 /* Main.storyboard */; };
+		309DA8841BC9B1200097C2F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309DA8831BC9B1200097C2F1 /* Images.xcassets */; };
+		309DA8871BC9B1200097C2F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309DA8851BC9B1200097C2F1 /* LaunchScreen.xib */; };
+		309DA8931BC9B1200097C2F1 /* spaceshipgameCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309DA8921BC9B1200097C2F1 /* spaceshipgameCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		309DA88D1BC9B1200097C2F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 309DA86B1BC9B1200097C2F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309DA8721BC9B1200097C2F1;
+			remoteInfo = spaceshipgameC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		309DA8731BC9B1200097C2F1 /* spaceshipgameC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spaceshipgameC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		309DA8771BC9B1200097C2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309DA8781BC9B1200097C2F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		309DA87A1BC9B1200097C2F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		309DA87B1BC9B1200097C2F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		309DA87D1BC9B1200097C2F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		309DA87E1BC9B1200097C2F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		309DA8811BC9B1200097C2F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		309DA8831BC9B1200097C2F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		309DA8861BC9B1200097C2F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		309DA88C1BC9B1200097C2F1 /* spaceshipgameCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spaceshipgameCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		309DA8911BC9B1200097C2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309DA8921BC9B1200097C2F1 /* spaceshipgameCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spaceshipgameCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		309DA8701BC9B1200097C2F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309DA8891BC9B1200097C2F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309DA86A1BC9B1200097C2F1 = {
+			isa = PBXGroup;
+			children = (
+				309DA8751BC9B1200097C2F1 /* spaceshipgameC */,
+				309DA88F1BC9B1200097C2F1 /* spaceshipgameCTests */,
+				309DA8741BC9B1200097C2F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		309DA8741BC9B1200097C2F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				309DA8731BC9B1200097C2F1 /* spaceshipgameC.app */,
+				309DA88C1BC9B1200097C2F1 /* spaceshipgameCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		309DA8751BC9B1200097C2F1 /* spaceshipgameC */ = {
+			isa = PBXGroup;
+			children = (
+				309DA87A1BC9B1200097C2F1 /* AppDelegate.h */,
+				309DA87B1BC9B1200097C2F1 /* AppDelegate.m */,
+				309DA87D1BC9B1200097C2F1 /* ViewController.h */,
+				309DA87E1BC9B1200097C2F1 /* ViewController.m */,
+				309DA8801BC9B1200097C2F1 /* Main.storyboard */,
+				309DA8831BC9B1200097C2F1 /* Images.xcassets */,
+				309DA8851BC9B1200097C2F1 /* LaunchScreen.xib */,
+				309DA8761BC9B1200097C2F1 /* Supporting Files */,
+			);
+			path = spaceshipgameC;
+			sourceTree = "<group>";
+		};
+		309DA8761BC9B1200097C2F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				309DA8771BC9B1200097C2F1 /* Info.plist */,
+				309DA8781BC9B1200097C2F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		309DA88F1BC9B1200097C2F1 /* spaceshipgameCTests */ = {
+			isa = PBXGroup;
+			children = (
+				309DA8921BC9B1200097C2F1 /* spaceshipgameCTests.m */,
+				309DA8901BC9B1200097C2F1 /* Supporting Files */,
+			);
+			path = spaceshipgameCTests;
+			sourceTree = "<group>";
+		};
+		309DA8901BC9B1200097C2F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				309DA8911BC9B1200097C2F1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		309DA8721BC9B1200097C2F1 /* spaceshipgameC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309DA8961BC9B1200097C2F1 /* Build configuration list for PBXNativeTarget "spaceshipgameC" */;
+			buildPhases = (
+				309DA86F1BC9B1200097C2F1 /* Sources */,
+				309DA8701BC9B1200097C2F1 /* Frameworks */,
+				309DA8711BC9B1200097C2F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spaceshipgameC;
+			productName = spaceshipgameC;
+			productReference = 309DA8731BC9B1200097C2F1 /* spaceshipgameC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		309DA88B1BC9B1200097C2F1 /* spaceshipgameCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309DA8991BC9B1200097C2F1 /* Build configuration list for PBXNativeTarget "spaceshipgameCTests" */;
+			buildPhases = (
+				309DA8881BC9B1200097C2F1 /* Sources */,
+				309DA8891BC9B1200097C2F1 /* Frameworks */,
+				309DA88A1BC9B1200097C2F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309DA88E1BC9B1200097C2F1 /* PBXTargetDependency */,
+			);
+			name = spaceshipgameCTests;
+			productName = spaceshipgameCTests;
+			productReference = 309DA88C1BC9B1200097C2F1 /* spaceshipgameCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		309DA86B1BC9B1200097C2F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = FlatCherry;
+				TargetAttributes = {
+					309DA8721BC9B1200097C2F1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					309DA88B1BC9B1200097C2F1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 309DA8721BC9B1200097C2F1;
+					};
+				};
+			};
+			buildConfigurationList = 309DA86E1BC9B1200097C2F1 /* Build configuration list for PBXProject "spaceshipgameC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 309DA86A1BC9B1200097C2F1;
+			productRefGroup = 309DA8741BC9B1200097C2F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				309DA8721BC9B1200097C2F1 /* spaceshipgameC */,
+				309DA88B1BC9B1200097C2F1 /* spaceshipgameCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		309DA8711BC9B1200097C2F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309DA8821BC9B1200097C2F1 /* Main.storyboard in Resources */,
+				309DA8871BC9B1200097C2F1 /* LaunchScreen.xib in Resources */,
+				309DA8841BC9B1200097C2F1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309DA88A1BC9B1200097C2F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		309DA86F1BC9B1200097C2F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309DA87F1BC9B1200097C2F1 /* ViewController.m in Sources */,
+				309DA87C1BC9B1200097C2F1 /* AppDelegate.m in Sources */,
+				309DA8791BC9B1200097C2F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309DA8881BC9B1200097C2F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309DA8931BC9B1200097C2F1 /* spaceshipgameCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		309DA88E1BC9B1200097C2F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 309DA8721BC9B1200097C2F1 /* spaceshipgameC */;
+			targetProxy = 309DA88D1BC9B1200097C2F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		309DA8801BC9B1200097C2F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309DA8811BC9B1200097C2F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		309DA8851BC9B1200097C2F1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309DA8861BC9B1200097C2F1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		309DA8941BC9B1200097C2F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		309DA8951BC9B1200097C2F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		309DA8971BC9B1200097C2F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = spaceshipgameC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		309DA8981BC9B1200097C2F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = spaceshipgameC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		309DA89A1BC9B1200097C2F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = spaceshipgameCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spaceshipgameC.app/spaceshipgameC";
+			};
+			name = Debug;
+		};
+		309DA89B1BC9B1200097C2F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = spaceshipgameCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spaceshipgameC.app/spaceshipgameC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		309DA86E1BC9B1200097C2F1 /* Build configuration list for PBXProject "spaceshipgameC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309DA8941BC9B1200097C2F1 /* Debug */,
+				309DA8951BC9B1200097C2F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309DA8961BC9B1200097C2F1 /* Build configuration list for PBXNativeTarget "spaceshipgameC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309DA8971BC9B1200097C2F1 /* Debug */,
+				309DA8981BC9B1200097C2F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		309DA8991BC9B1200097C2F1 /* Build configuration list for PBXNativeTarget "spaceshipgameCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309DA89A1BC9B1200097C2F1 /* Debug */,
+				309DA89B1BC9B1200097C2F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 309DA86B1BC9B1200097C2F1 /* Project object */;
+}
