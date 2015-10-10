@@ -35,9 +35,46 @@ float speedOfEnemy;
 
 - (void)viewDidAppear:(BOOL)animated {
     
+    
+    //hidden images
+    friendlyShip.hidden=YES;
+    enemyShip.hidden=YES;
+    missile.hidden=YES;
+    motherShip.hidden=YES;
+    
+    //hidden labels
+    livesLabel.hidden=YES;
+    scoreLabel.hidden=YES;
+    
+    //set score and lives remaining
+    lives = 0;
+    score = 0;
+    
+    //strings
+    livesString = [NSString stringWithFormat:@"LIVES: 0"];
+    scoreString = [NSString stringWithFormat:@"SCORE: 0"];
+
+    //initial label text
+    livesLabel.text = livesString;
+    scoreLabel.text = scoreString;
+    
+    //starting position of images
+    friendlyShip.center = CGPointMake(140, 400);
+    enemyShip.center = CGPointMake(140, 400);
+    missile.center = CGPointMake(friendlyShip.center.x, enemyShip.center.y)
+    
+    
+       
+    
+    
+    
+    
 }
 
 - (IBAction)startGame:(id)sender {
+    
+    startButton.hidden = YES;
+    
     
 }
 
