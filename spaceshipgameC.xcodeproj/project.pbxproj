@@ -14,6 +14,11 @@
 		309DA8841BC9B1200097C2F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309DA8831BC9B1200097C2F1 /* Images.xcassets */; };
 		309DA8871BC9B1200097C2F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309DA8851BC9B1200097C2F1 /* LaunchScreen.xib */; };
 		309DA8931BC9B1200097C2F1 /* spaceshipgameCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309DA8921BC9B1200097C2F1 /* spaceshipgameCTests.m */; };
+		309DA8A21BC9B1740097C2F1 /* fs_enemy02A.png in Resources */ = {isa = PBXBuildFile; fileRef = 309DA89D1BC9B1740097C2F1 /* fs_enemy02A.png */; };
+		309DA8A31BC9B1740097C2F1 /* missile.png in Resources */ = {isa = PBXBuildFile; fileRef = 309DA89E1BC9B1740097C2F1 /* missile.png */; };
+		309DA8A41BC9B1740097C2F1 /* ship5.png in Resources */ = {isa = PBXBuildFile; fileRef = 309DA89F1BC9B1740097C2F1 /* ship5.png */; };
+		309DA8A51BC9B1740097C2F1 /* Star_Destroyer_Side_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 309DA8A01BC9B1740097C2F1 /* Star_Destroyer_Side_2.png */; };
+		309DA8A61BC9B1740097C2F1 /* texture__space_by_Mjag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 309DA8A11BC9B1740097C2F1 /* texture__space_by_Mjag.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		309DA88C1BC9B1200097C2F1 /* spaceshipgameCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spaceshipgameCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		309DA8911BC9B1200097C2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		309DA8921BC9B1200097C2F1 /* spaceshipgameCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spaceshipgameCTests.m; sourceTree = "<group>"; };
+		309DA89D1BC9B1740097C2F1 /* fs_enemy02A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fs_enemy02A.png; sourceTree = "<group>"; };
+		309DA89E1BC9B1740097C2F1 /* missile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missile.png; sourceTree = "<group>"; };
+		309DA89F1BC9B1740097C2F1 /* ship5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship5.png; sourceTree = "<group>"; };
+		309DA8A01BC9B1740097C2F1 /* Star_Destroyer_Side_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_Destroyer_Side_2.png; sourceTree = "<group>"; };
+		309DA8A11BC9B1740097C2F1 /* texture__space_by_Mjag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture__space_by_Mjag.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,7 @@
 				309DA8751BC9B1200097C2F1 /* spaceshipgameC */,
 				309DA88F1BC9B1200097C2F1 /* spaceshipgameCTests */,
 				309DA8741BC9B1200097C2F1 /* Products */,
+				309DA89C1BC9B1740097C2F1 /* Easy Game - Mikado Apps */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +128,18 @@
 				309DA8911BC9B1200097C2F1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		309DA89C1BC9B1740097C2F1 /* Easy Game - Mikado Apps */ = {
+			isa = PBXGroup;
+			children = (
+				309DA89D1BC9B1740097C2F1 /* fs_enemy02A.png */,
+				309DA89E1BC9B1740097C2F1 /* missile.png */,
+				309DA89F1BC9B1740097C2F1 /* ship5.png */,
+				309DA8A01BC9B1740097C2F1 /* Star_Destroyer_Side_2.png */,
+				309DA8A11BC9B1740097C2F1 /* texture__space_by_Mjag.jpg */,
+			);
+			path = "Easy Game - Mikado Apps";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +223,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				309DA8821BC9B1200097C2F1 /* Main.storyboard in Resources */,
+				309DA8A41BC9B1740097C2F1 /* ship5.png in Resources */,
+				309DA8A31BC9B1740097C2F1 /* missile.png in Resources */,
 				309DA8871BC9B1200097C2F1 /* LaunchScreen.xib in Resources */,
+				309DA8A61BC9B1740097C2F1 /* texture__space_by_Mjag.jpg in Resources */,
 				309DA8841BC9B1200097C2F1 /* Images.xcassets in Resources */,
+				309DA8A21BC9B1740097C2F1 /* fs_enemy02A.png in Resources */,
+				309DA8A51BC9B1740097C2F1 /* Star_Destroyer_Side_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
