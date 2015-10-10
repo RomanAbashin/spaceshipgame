@@ -12,6 +12,15 @@
 
 @end
 
+int score;
+int lives;
+int enemyAttackOccurence;
+int enemyPosition;
+int randomSpeed;
+float speedOfEnemy;
+
+
+
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -23,5 +32,51 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)viewDidAppear:(BOOL)animated {
+    
+}
+
+- (IBAction)startGame:(id)sender {
+    
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+}
+
+- (void)positionEnemy {
+    
+}
+
+- (void)enemyMovementTimer {
+    
+}
+
+- (void)enemyMovement {
+    
+}
+
+- (void)missileMovement {
+    
+}
+
+- (void)gameOver {
+    
+}
+
+- (void)replayGame {
+    
+}
+
+
 
 @end
