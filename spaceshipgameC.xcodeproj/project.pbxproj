@@ -76,7 +76,7 @@
 				309DA8751BC9B1200097C2F1 /* spaceshipgameC */,
 				309DA88F1BC9B1200097C2F1 /* spaceshipgameCTests */,
 				309DA8741BC9B1200097C2F1 /* Products */,
-				309DA89C1BC9B1740097C2F1 /* Easy Game - Mikado Apps */,
+				309DA89C1BC9B1740097C2F1 /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,7 +130,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		309DA89C1BC9B1740097C2F1 /* Easy Game - Mikado Apps */ = {
+		309DA89C1BC9B1740097C2F1 /* images */ = {
 			isa = PBXGroup;
 			children = (
 				309DA89D1BC9B1740097C2F1 /* fs_enemy02A.png */,
@@ -139,6 +139,7 @@
 				309DA8A01BC9B1740097C2F1 /* Star_Destroyer_Side_2.png */,
 				309DA8A11BC9B1740097C2F1 /* texture__space_by_Mjag.jpg */,
 			);
+			name = images;
 			path = "Easy Game - Mikado Apps";
 			sourceTree = "<group>";
 		};
@@ -440,6 +441,7 @@
 				309DA8981BC9B1200097C2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		309DA8991BC9B1200097C2F1 /* Build configuration list for PBXNativeTarget "spaceshipgameCTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +450,7 @@
 				309DA89B1BC9B1200097C2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
